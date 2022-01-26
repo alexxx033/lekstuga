@@ -36,4 +36,6 @@ function decrese() {
 
 function save() {
   prevEnt.textContent += " " + count + " - ";
+  countEl.textContent = 0;
+  count = 0;
 }
